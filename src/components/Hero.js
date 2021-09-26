@@ -11,7 +11,7 @@ const Hero = () => {
     <div>
       <Navbar expand="lg" className="el_cozy">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="#">
             <img src={Logo} alt="logo" />
             Lasles<span>vpn</span>
           </Navbar.Brand>

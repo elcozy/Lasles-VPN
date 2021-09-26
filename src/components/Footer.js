@@ -21,17 +21,17 @@ const Footer = () => {
             </p>
             <div className="socials">
               <div>
-                <Nav.Link href="#">
+                <Nav.Link href="https://web.facebook.com/Madufor.Reynolds/">
                   <img src={Facebook} className="img-fluid" alt="" />
                 </Nav.Link>
               </div>
               <div>
-                <Nav.Link href="#">
+                <Nav.Link href="https://elcozy.github.io/">
                   <img src={Twitter} className="img-fluid" alt="" />
                 </Nav.Link>
               </div>
               <div>
-                <Nav.Link href="#">
+                <Nav.Link href="https://www.linkedin.com/in/chiemekam/">
                   <img src={Instagram} className="img-fluid" alt="" />
                 </Nav.Link>
               </div>
