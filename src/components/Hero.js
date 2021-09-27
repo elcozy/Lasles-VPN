@@ -28,7 +28,7 @@ const Hero = () => {
               <Button variant="outline-primary">Sign In</Button>
               <Button variant="outline-secondary" className="sign-up">
                 Sign Up
-              </Button>{" "}
+              </Button>
             </div>
           </Navbar.Collapse>
         </Container>
