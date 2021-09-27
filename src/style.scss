@@ -33,6 +33,9 @@ nav.el_cozy {
     .sign-up-buttons {
       display: flex;
       button {
+        &:focus{
+          box-shadow: none;
+        }
         margin-right: 0.5rem;
         margin-left: 0.5rem;
         padding-right: 1.5rem;
@@ -115,6 +118,9 @@ nav.el_cozy {
       }
     }
     button {
+      &:focus{
+        box-shadow: none;
+      }
       padding: 0.7rem 3rem;
       @media (min-width: 768px) {
         padding: 1rem 4rem;
@@ -398,6 +404,9 @@ nav.el_cozy {
           }
         }
         button {
+          &:focus{
+            box-shadow: none;
+          }
           background: #fff;
           font-weight: 500;
           position: relative;
@@ -430,7 +439,10 @@ nav.el_cozy {
         border: 2px solid #f53838;
         box-shadow: 0 4px 8px 0 rgba(245, 56, 56, 0.35);
         .plan-cost {
-          button {
+          button { 
+            &:focus{
+              box-shadow: none;
+            }
             background: #f53838;
             font-weight: 500;
             position: relative;
@@ -674,6 +686,9 @@ nav.el_cozy {
   }
   .sub-button {
     button {
+      &:focus{
+        box-shadow: none;
+      }
       padding: 0.7rem 3rem;
       @media (min-width: 768px) {
         padding: 1rem 4rem;
@@ -734,6 +749,9 @@ nav.el_cozy {
     gap: 15px;
     justify-content: end;
     button {
+      &:focus{
+        box-shadow: none;
+      }
       position: relative;
       left: 0;
       right: 0;
@@ -764,6 +782,9 @@ nav.el_cozy {
     padding-bottom: 2rem;
     li {
       button {
+        &:focus{
+          box-shadow: none;
+        }
         width: 15px;
         height: 15px;
         margin: 4px;

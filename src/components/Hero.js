@@ -25,7 +25,7 @@ const Hero = () => {
               <Nav.Link href="#help">Help</Nav.Link>
             </Nav>
             <div className="sign-up-buttons">
-              <Button variant="outline-primary">Sign In</Button>{" "}
+              <Button variant="outline-primary">Sign In</Button>
               <Button variant="outline-secondary" className="sign-up">
                 Sign Up
               </Button>{" "}
